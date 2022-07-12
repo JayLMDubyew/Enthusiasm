@@ -1,0 +1,1 @@
+Gotta be enthusiastic to make it in infosec.
