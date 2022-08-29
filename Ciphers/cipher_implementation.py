@@ -25,7 +25,7 @@ def monoalpha(message):
     alphabet = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
     cipher = list(alphabet)
     random.shuffle(cipher)
-    dictionary = dict(zip(list(alphabet) , cipher))
+    dictionary = dict(zip(list(alphabet), cipher))
     print("Your Cipher:")
     pp.pprint(dictionary)
 
@@ -36,3 +36,5 @@ def monoalpha(message):
 
 print(rot(4,"Hello"))
 brute_rot("Lipps")
+
+monoalpha("Let's go to the park")
